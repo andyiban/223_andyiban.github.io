@@ -1,0 +1,86 @@
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+a{
+  background:
+      linear-gradient(to right, hsla(123, 61%, 6%, 0.5), rgb(54, 174, 179));
+font-size:30px;
+font-family:Segoe Print;
+color:#a33636;
+}
+a:hover {
+color:#FF0000;
+background:#36aeb3;
+}
+}
+.header {
+  background:
+      linear-gradient(to right, hsla(123, 61%, 56%, 0.5), rgb(54, 174, 179));
+}
+
+.footer {
+    font-size:30px;
+  background:
+      linear-gradient(to right, hsla(123, 61%, 56%, 0.5), rgb(54, 174, 179));
+width: 100vw;
+    height: 120vh;
+      background-size: cover;
+}
+
+.main {
+  text-align: left;
+  background: #a6ff4d;
+  background:
+      linear-gradient(to right, hsla(123, 61%, 56%, 0.5), rgb(54, 174, 179));
+}
+
+.aside-2 {
+    font-family:Comic Sans MS;
+    text-align: left;
+  background:
+      linear-gradient(to right, hsla(123, 61%, 56%, 0.5), rgb(54, 174, 179));
+font-size:30px;
+}
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 auto;
+  }
+}
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
+  }
+
+  .main {
+    order: 2;
+  }
+
+  .aside-2 {
+    order: 3;
+  }
+
+  .footer {
+    order: 4;
+  }
+}
+body {
+  padding: 2em;
+}
+body{background-image:url(iphone.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat
