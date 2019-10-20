@@ -1,0 +1,35 @@
+body{background-image:url(iphone.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat
+}
+  
+  .img {
+      background:
+      linear-gradient(to right, hsla(123, 61%, 56%, 0.5), rgba(22, 215, 177, 0.3));
+      
+      width: 100vw;
+    height: 100vh;
+      background-size: cover;
+  }
+  .link1{
+        font-size: 30pt;
+}
+
+.link1 a{
+font-size:30px;
+font-family:Segoe Print;
+color:#a33636;
+}
+a:hover {
+color:#FF0000;
+background:#66FF33;
+}
+.link1 a{text-decoration:none}
+.footer {
+  background:
+      linear-gradient(to right, hsla(123, 61%, 56%, 0.5), rgb(0.05,0.10,0.00));
+}
+.footer {
+    order: 4;
+  }
